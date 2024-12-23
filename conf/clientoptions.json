@@ -3,8 +3,6 @@
         "chatModeOn": true,
         "lootChannelOpen": false,
         "openChannels": [
-            3,
-            5
         ]
     },
     "clientOptionsVersion": 8,
@@ -14,53 +12,259 @@
         "clientWindowIsMaximized": true,
         "clientWindowPositionX": 450,
         "clientWindowPositionY": 191,
-        "clientWindowScreenName": "SFP2702G FHD",
+        "clientWindowScreenName": "Union TV",
         "clientWindowWidth": 1020
     },
     "controlButtonsOptions": {
         "disabledButtons": [
-        ],
-        "enabledButtons": [
-            "skillsWidget",
-            "battleListWidget",
             "partyWidget",
-            "vipWidget",
-            "spellListWidget",
             "skillWheelDialog",
-            "questDialog",
             "questTrackerWidget",
             "unjustifiedPoinsWidget",
             "preyDialog",
             "preyWidget",
             "rewardWallDialog",
             "analyticsSelectorWidget",
-            "compendiumDialog",
-            "cyclopediaDialog",
             "bosstiaryDialog",
             "bossslotsDialog",
             "bosstiaryTrackerWidget",
             "bestiaryTrackerWidget",
             "imbuementTrackerWidget",
             "exaltationForgeDialog",
-            "friendsDialog",
+            "friendsDialog"
+        ],
+        "enabledButtons": [
+            "skillsWidget",
+            "battleListWidget",
+            "spellListWidget",
+            "vipWidget",
             "lenshelpFunction",
+            "questDialog",
+            "compendiumDialog",
+            "cyclopediaDialog",
             "highscoresDialog",
             "playerGuide",
             "manageShortcuts"
         ]
     },
     "deviceCookieOptions": [
+        {
+            "devicecookie": "7dYifouMoZvkvIvUTfMsZexEbx/uag==,5B1wAIu5XQ4gznzuj1F5OQ==,0YauJuOSYn1Hz1Ds7nhwiQ==",
+            "hash": "5fe36e00"
+        }
     ],
     "hotkeyOptions": {
-        "autoSwitchHotkeyPreset": false,
+        "autoSwitchHotkeyPreset": true,
         "currentHotkeySetName": "Knight",
         "hotkeySets": {
             "Druid": {
                 "actionBarOptions": {
                     "mappings": [
+                        {
+                            "actionBar": 1,
+                            "actionButton": 1,
+                            "actionsetting": {
+                                "useObject": 7876,
+                                "useType": "UseOnYourself"
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 2,
+                            "actionsetting": {
+                                "useObject": 268,
+                                "useType": "UseOnYourself"
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 3,
+                            "actionsetting": {
+                                "chatText": "exura infir",
+                                "sendAutomatically": true
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 4,
+                            "actionsetting": {
+                                "chatText": "exori infir tera",
+                                "sendAutomatically": true
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 5,
+                            "actionsetting": {
+                                "chatText": "exevo infir frigo hur",
+                                "sendAutomatically": true
+                            }
+                        }
                     ]
                 },
                 "chatOff": [
+                    {
+                        "actionsetting": {
+                            "action": "AttackNextTarget"
+                        },
+                        "keysequence": "Space"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoWest"
+                        },
+                        "keysequence": "A"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoSouthEast"
+                        },
+                        "keysequence": "C"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoEast"
+                        },
+                        "keysequence": "D"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoNorthEast"
+                        },
+                        "keysequence": "E"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "ShowCyclopediaMap"
+                        },
+                        "keysequence": "M"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoNorthWest"
+                        },
+                        "keysequence": "Q"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoSouth"
+                        },
+                        "keysequence": "S"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoNorth"
+                        },
+                        "keysequence": "W"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoSouthWest"
+                        },
+                        "keysequence": "Z"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "StopPlayer"
+                        },
+                        "keysequence": "Esc"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "NextChannel"
+                        },
+                        "keysequence": "Tab"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "ChatModeTemporaryOn"
+                        },
+                        "keysequence": "Return"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.1"
+                        },
+                        "keysequence": "F1"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.2"
+                        },
+                        "keysequence": "F2"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.3"
+                        },
+                        "keysequence": "F3"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.4"
+                        },
+                        "keysequence": "F4"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.5"
+                        },
+                        "keysequence": "F5"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.6"
+                        },
+                        "keysequence": "F6"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.7"
+                        },
+                        "keysequence": "F7"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.8"
+                        },
+                        "keysequence": "F8"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.9"
+                        },
+                        "keysequence": "F9"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.10"
+                        },
+                        "keysequence": "F10"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.11"
+                        },
+                        "keysequence": "F11"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.12"
+                        },
+                        "keysequence": "F12"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "PreviousChannel"
+                        },
+                        "keysequence": "Shift+Backtab"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "AttackPreviousTarget"
+                        },
+                        "keysequence": "Ctrl+Space"
+                    },
                     {
                         "actionsetting": {
                             "action": "ToggleBattlelist"
@@ -72,12 +276,6 @@
                             "action": "Copy"
                         },
                         "keysequence": "Ctrl+C"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "ShowDefaultChannel"
-                        },
-                        "keysequence": "Alt+D"
                     },
                     {
                         "actionsetting": {
@@ -165,15 +363,9 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "ToggleSkillsWidget"
+                            "action": "ToggleManualSortMode"
                         },
-                        "keysequence": "Alt+S"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "ToggleSpellListWidget"
-                        },
-                        "keysequence": "Alt+L"
+                        "keysequence": "Ctrl+S"
                     },
                     {
                         "actionsetting": {
@@ -189,12 +381,6 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "ClearOldestMessage"
-                        },
-                        "keysequence": "Alt+W"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "ShowPrey"
                         },
                         "keysequence": "Ctrl+Y"
@@ -207,45 +393,39 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "StopPlayer"
+                            "action": "ShowDefaultChannel"
                         },
-                        "keysequence": "Esc"
+                        "keysequence": "Alt+D"
                     },
                     {
                         "actionsetting": {
-                            "action": "NextChannel"
+                            "action": "ToggleSpellListWidget"
                         },
-                        "keysequence": "Tab"
+                        "keysequence": "Alt+L"
                     },
                     {
                         "actionsetting": {
-                            "action": "AttackNextTarget"
+                            "action": "QuickLootAreaAtPlayer"
                         },
-                        "keysequence": "Space"
+                        "keysequence": "Alt+Q"
                     },
                     {
                         "actionsetting": {
-                            "action": "AttackPreviousTarget"
+                            "action": "ToggleSkillsWidget"
                         },
-                        "keysequence": "Ctrl+Space"
+                        "keysequence": "Alt+S"
                     },
                     {
                         "actionsetting": {
-                            "action": "PreviousChannel"
+                            "action": "ClearOldestMessage"
                         },
-                        "keysequence": "Shift+Backtab"
+                        "keysequence": "Alt+W"
                     },
                     {
                         "actionsetting": {
-                            "action": "MinimapFloorUp"
+                            "action": "ToggleFullscreen"
                         },
-                        "keysequence": "Alt+PgUp"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "MinimapFloorDown"
-                        },
-                        "keysequence": "Alt+PgDown"
+                        "keysequence": "Alt+Return"
                     },
                     {
                         "actionsetting": {
@@ -267,15 +447,15 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "MinimapScrollEast"
-                        },
-                        "keysequence": "Alt+Right"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "MinimapScrollNorth"
                         },
                         "keysequence": "Alt+Up"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "MinimapScrollEast"
+                        },
+                        "keysequence": "Alt+Right"
                     },
                     {
                         "actionsetting": {
@@ -285,75 +465,47 @@
                     },
                     {
                         "actionsetting": {
+                            "action": "MinimapFloorUp"
+                        },
+                        "keysequence": "Alt+PgUp"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "MinimapFloorDown"
+                        },
+                        "keysequence": "Alt+PgDown"
+                    },
+                    {
+                        "actionsetting": {
                             "action": "ToggleFPSLagIndicator"
                         },
                         "keysequence": "Alt+F8"
                     },
                     {
                         "actionsetting": {
-                            "action": "ToggleFullscreen"
-                        },
-                        "keysequence": "Alt+Return"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "ChatModeTemporaryOn"
-                        },
-                        "keysequence": "Return"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "ChatModeTemporaryOn"
                         },
                         "keysequence": "Num+Enter"
+                    }
+                ],
+                "chatOn": [
+                    {
+                        "actionsetting": {
+                            "action": "StopPlayer"
+                        },
+                        "keysequence": "Esc"
                     },
                     {
                         "actionsetting": {
-                            "action": "GoNorth"
+                            "action": "NextChannel"
                         },
-                        "keysequence": "W"
+                        "keysequence": "Tab"
                     },
                     {
                         "actionsetting": {
-                            "action": "GoWest"
+                            "action": "PressEnterInChat"
                         },
-                        "keysequence": "A"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoSouth"
-                        },
-                        "keysequence": "S"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoEast"
-                        },
-                        "keysequence": "D"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoNorthWest"
-                        },
-                        "keysequence": "Q"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoSouthWest"
-                        },
-                        "keysequence": "Z"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoNorthEast"
-                        },
-                        "keysequence": "E"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoSouthEast"
-                        },
-                        "keysequence": "C"
+                        "keysequence": "Return"
                     },
                     {
                         "actionsetting": {
@@ -429,18 +581,10 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "QuickLootAreaAtPlayer"
+                            "action": "PreviousChannel"
                         },
-                        "keysequence": "Alt+Q"
+                        "keysequence": "Shift+Backtab"
                     },
-                    {
-                        "actionsetting": {
-                            "action": "ShowCyclopediaMap"
-                        },
-                        "keysequence": "M"
-                    }
-                ],
-                "chatOn": [
                     {
                         "actionsetting": {
                             "action": "SelectAll"
@@ -461,12 +605,6 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "ShowDefaultChannel"
-                        },
-                        "keysequence": "Alt+D"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "CloseCurrentChannel"
                         },
                         "keysequence": "Ctrl+E"
@@ -551,15 +689,9 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "ToggleSkillsWidget"
+                            "action": "ToggleManualSortMode"
                         },
-                        "keysequence": "Alt+S"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "ToggleSpellListWidget"
-                        },
-                        "keysequence": "Alt+L"
+                        "keysequence": "Ctrl+S"
                     },
                     {
                         "actionsetting": {
@@ -575,12 +707,6 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "ClearOldestMessage"
-                        },
-                        "keysequence": "Alt+W"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "ShowPrey"
                         },
                         "keysequence": "Ctrl+Y"
@@ -593,33 +719,39 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "StopPlayer"
+                            "action": "ShowDefaultChannel"
                         },
-                        "keysequence": "Esc"
+                        "keysequence": "Alt+D"
                     },
                     {
                         "actionsetting": {
-                            "action": "NextChannel"
+                            "action": "ToggleSpellListWidget"
                         },
-                        "keysequence": "Tab"
+                        "keysequence": "Alt+L"
                     },
                     {
                         "actionsetting": {
-                            "action": "PreviousChannel"
+                            "action": "QuickLootAreaAtPlayer"
                         },
-                        "keysequence": "Shift+Backtab"
+                        "keysequence": "Alt+Q"
                     },
                     {
                         "actionsetting": {
-                            "action": "MinimapFloorUp"
+                            "action": "ToggleSkillsWidget"
                         },
-                        "keysequence": "Alt+PgUp"
+                        "keysequence": "Alt+S"
                     },
                     {
                         "actionsetting": {
-                            "action": "MinimapFloorDown"
+                            "action": "ClearOldestMessage"
                         },
-                        "keysequence": "Alt+PgDown"
+                        "keysequence": "Alt+W"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "ToggleFullscreen"
+                        },
+                        "keysequence": "Alt+Return"
                     },
                     {
                         "actionsetting": {
@@ -641,15 +773,15 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "MinimapScrollEast"
-                        },
-                        "keysequence": "Alt+Right"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "MinimapScrollNorth"
                         },
                         "keysequence": "Alt+Up"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "MinimapScrollEast"
+                        },
+                        "keysequence": "Alt+Right"
                     },
                     {
                         "actionsetting": {
@@ -659,27 +791,145 @@
                     },
                     {
                         "actionsetting": {
+                            "action": "MinimapFloorUp"
+                        },
+                        "keysequence": "Alt+PgUp"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "MinimapFloorDown"
+                        },
+                        "keysequence": "Alt+PgDown"
+                    },
+                    {
+                        "actionsetting": {
                             "action": "ToggleFPSLagIndicator"
                         },
                         "keysequence": "Alt+F8"
                     },
                     {
                         "actionsetting": {
-                            "action": "ToggleFullscreen"
-                        },
-                        "keysequence": "Alt+Return"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "PressEnterInChat"
-                        },
-                        "keysequence": "Return"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "PressEnterInChat"
                         },
                         "keysequence": "Num+Enter"
+                    }
+                ]
+            },
+            "Knight": {
+                "actionBarOptions": {
+                    "mappings": [
+                        {
+                            "actionBar": 1,
+                            "actionButton": 1,
+                            "actionsetting": {
+                                "useObject": 7876,
+                                "useType": "UseOnYourself"
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 2,
+                            "actionsetting": {
+                                "useObject": 268,
+                                "useType": "UseOnYourself"
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 3,
+                            "actionsetting": {
+                                "chatText": "exura infir ico",
+                                "sendAutomatically": true
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 4,
+                            "actionsetting": {
+                                "chatText": "exori infir min",
+                                "sendAutomatically": true
+                            }
+                        }
+                    ]
+                },
+                "chatOff": [
+                    {
+                        "actionsetting": {
+                            "action": "AttackNextTarget"
+                        },
+                        "keysequence": "Space"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoWest"
+                        },
+                        "keysequence": "A"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoSouthEast"
+                        },
+                        "keysequence": "C"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoEast"
+                        },
+                        "keysequence": "D"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoNorthEast"
+                        },
+                        "keysequence": "E"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "ShowCyclopediaMap"
+                        },
+                        "keysequence": "M"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoNorthWest"
+                        },
+                        "keysequence": "Q"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoSouth"
+                        },
+                        "keysequence": "S"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoNorth"
+                        },
+                        "keysequence": "W"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoSouthWest"
+                        },
+                        "keysequence": "Z"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "StopPlayer"
+                        },
+                        "keysequence": "Esc"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "NextChannel"
+                        },
+                        "keysequence": "Tab"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "ChatModeTemporaryOn"
+                        },
+                        "keysequence": "Return"
                     },
                     {
                         "actionsetting": {
@@ -755,72 +1005,16 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "ToggleManualSortMode"
+                            "action": "PreviousChannel"
                         },
-                        "keysequence": "Ctrl+S"
+                        "keysequence": "Shift+Backtab"
                     },
                     {
                         "actionsetting": {
-                            "action": "QuickLootAreaAtPlayer"
+                            "action": "AttackPreviousTarget"
                         },
-                        "keysequence": "Alt+Q"
-                    }
-                ]
-            },
-            "Knight": {
-                "actionBarOptions": {
-                    "mappings": [
-                        {
-                            "actionBar": 1,
-                            "actionButton": 1,
-                            "actionsetting": {
-                                "chatText": "exevo gran mas frigo",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 1,
-                            "actionButton": 2,
-                            "actionsetting": {
-                                "chatText": "exori gran",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 1,
-                            "actionButton": 3,
-                            "actionsetting": {
-                                "chatText": "exevo gran mas frigo",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 1,
-                            "actionButton": 4,
-                            "actionsetting": {
-                                "chatText": "exevo gran mas frigo",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 1,
-                            "actionButton": 5,
-                            "actionsetting": {
-                                "chatText": "/addskill Play OTserver, level, 200",
-                                "sendAutomatically": true
-                            }
-                        },
-                        {
-                            "actionBar": 1,
-                            "actionButton": 6,
-                            "actionsetting": {
-                                "chatText": "utevo vis lux",
-                                "sendAutomatically": true
-                            }
-                        }
-                    ]
-                },
-                "chatOff": [
+                        "keysequence": "Ctrl+Space"
+                    },
                     {
                         "actionsetting": {
                             "action": "ToggleBattlelist"
@@ -835,12 +1029,6 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "ShowDefaultChannel"
-                        },
-                        "keysequence": "Alt+D"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "CloseCurrentChannel"
                         },
                         "keysequence": "Ctrl+E"
@@ -925,15 +1113,9 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "ToggleSkillsWidget"
+                            "action": "ToggleManualSortMode"
                         },
-                        "keysequence": "Alt+S"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "ToggleSpellListWidget"
-                        },
-                        "keysequence": "Alt+L"
+                        "keysequence": "Ctrl+S"
                     },
                     {
                         "actionsetting": {
@@ -949,12 +1131,6 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "ClearOldestMessage"
-                        },
-                        "keysequence": "Alt+W"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "ShowPrey"
                         },
                         "keysequence": "Ctrl+Y"
@@ -967,45 +1143,39 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "StopPlayer"
+                            "action": "ShowDefaultChannel"
                         },
-                        "keysequence": "Esc"
+                        "keysequence": "Alt+D"
                     },
                     {
                         "actionsetting": {
-                            "action": "NextChannel"
+                            "action": "ToggleSpellListWidget"
                         },
-                        "keysequence": "Tab"
+                        "keysequence": "Alt+L"
                     },
                     {
                         "actionsetting": {
-                            "action": "AttackNextTarget"
+                            "action": "QuickLootAreaAtPlayer"
                         },
-                        "keysequence": "Space"
+                        "keysequence": "Alt+Q"
                     },
                     {
                         "actionsetting": {
-                            "action": "AttackPreviousTarget"
+                            "action": "ToggleSkillsWidget"
                         },
-                        "keysequence": "Ctrl+Space"
+                        "keysequence": "Alt+S"
                     },
                     {
                         "actionsetting": {
-                            "action": "PreviousChannel"
+                            "action": "ClearOldestMessage"
                         },
-                        "keysequence": "Shift+Backtab"
+                        "keysequence": "Alt+W"
                     },
                     {
                         "actionsetting": {
-                            "action": "MinimapFloorUp"
+                            "action": "ToggleFullscreen"
                         },
-                        "keysequence": "Alt+PgUp"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "MinimapFloorDown"
-                        },
-                        "keysequence": "Alt+PgDown"
+                        "keysequence": "Alt+Return"
                     },
                     {
                         "actionsetting": {
@@ -1027,15 +1197,15 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "MinimapScrollEast"
-                        },
-                        "keysequence": "Alt+Right"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "MinimapScrollNorth"
                         },
                         "keysequence": "Alt+Up"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "MinimapScrollEast"
+                        },
+                        "keysequence": "Alt+Right"
                     },
                     {
                         "actionsetting": {
@@ -1045,159 +1215,27 @@
                     },
                     {
                         "actionsetting": {
+                            "action": "MinimapFloorUp"
+                        },
+                        "keysequence": "Alt+PgUp"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "MinimapFloorDown"
+                        },
+                        "keysequence": "Alt+PgDown"
+                    },
+                    {
+                        "actionsetting": {
                             "action": "ToggleFPSLagIndicator"
                         },
                         "keysequence": "Alt+F8"
                     },
                     {
                         "actionsetting": {
-                            "action": "ToggleFullscreen"
-                        },
-                        "keysequence": "Alt+Return"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "ChatModeTemporaryOn"
-                        },
-                        "keysequence": "Return"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "ChatModeTemporaryOn"
                         },
                         "keysequence": "Num+Enter"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoNorth"
-                        },
-                        "keysequence": "W"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoWest"
-                        },
-                        "keysequence": "A"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoSouth"
-                        },
-                        "keysequence": "S"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoEast"
-                        },
-                        "keysequence": "D"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoNorthWest"
-                        },
-                        "keysequence": "Q"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoSouthWest"
-                        },
-                        "keysequence": "Z"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoNorthEast"
-                        },
-                        "keysequence": "E"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoSouthEast"
-                        },
-                        "keysequence": "C"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.1"
-                        },
-                        "keysequence": "F1"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.2"
-                        },
-                        "keysequence": "F2"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.3"
-                        },
-                        "keysequence": "F3"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.4"
-                        },
-                        "keysequence": "F4"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.5"
-                        },
-                        "keysequence": "F5"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.6"
-                        },
-                        "keysequence": "F6"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.7"
-                        },
-                        "keysequence": "F7"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.8"
-                        },
-                        "keysequence": "F8"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.9"
-                        },
-                        "keysequence": "F9"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.10"
-                        },
-                        "keysequence": "F10"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.11"
-                        },
-                        "keysequence": "F11"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.12"
-                        },
-                        "keysequence": "F12"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "QuickLootAreaAtPlayer"
-                        },
-                        "keysequence": "Alt+Q"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "ShowCyclopediaMap"
-                        },
-                        "keysequence": "M"
                     }
                 ],
                 "chatOn": [
@@ -1530,9 +1568,203 @@
             "Paladin": {
                 "actionBarOptions": {
                     "mappings": [
+                        {
+                            "actionBar": 1,
+                            "actionButton": 1,
+                            "actionsetting": {
+                                "useObject": 7876,
+                                "useType": "UseOnYourself"
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 2,
+                            "actionsetting": {
+                                "useObject": 268,
+                                "useType": "UseOnYourself"
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 3,
+                            "actionsetting": {
+                                "chatText": "exura infir",
+                                "sendAutomatically": true
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 4,
+                            "actionsetting": {
+                                "chatText": "exori infir con",
+                                "sendAutomatically": true
+                            }
+                        }
                     ]
                 },
                 "chatOff": [
+                    {
+                        "actionsetting": {
+                            "action": "AttackNextTarget"
+                        },
+                        "keysequence": "Space"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoWest"
+                        },
+                        "keysequence": "A"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoSouthEast"
+                        },
+                        "keysequence": "C"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoEast"
+                        },
+                        "keysequence": "D"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoNorthEast"
+                        },
+                        "keysequence": "E"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "ShowCyclopediaMap"
+                        },
+                        "keysequence": "M"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoNorthWest"
+                        },
+                        "keysequence": "Q"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoSouth"
+                        },
+                        "keysequence": "S"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoNorth"
+                        },
+                        "keysequence": "W"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoSouthWest"
+                        },
+                        "keysequence": "Z"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "StopPlayer"
+                        },
+                        "keysequence": "Esc"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "NextChannel"
+                        },
+                        "keysequence": "Tab"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "ChatModeTemporaryOn"
+                        },
+                        "keysequence": "Return"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.1"
+                        },
+                        "keysequence": "F1"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.2"
+                        },
+                        "keysequence": "F2"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.3"
+                        },
+                        "keysequence": "F3"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.4"
+                        },
+                        "keysequence": "F4"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.5"
+                        },
+                        "keysequence": "F5"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.6"
+                        },
+                        "keysequence": "F6"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.7"
+                        },
+                        "keysequence": "F7"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.8"
+                        },
+                        "keysequence": "F8"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.9"
+                        },
+                        "keysequence": "F9"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.10"
+                        },
+                        "keysequence": "F10"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.11"
+                        },
+                        "keysequence": "F11"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.12"
+                        },
+                        "keysequence": "F12"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "PreviousChannel"
+                        },
+                        "keysequence": "Shift+Backtab"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "AttackPreviousTarget"
+                        },
+                        "keysequence": "Ctrl+Space"
+                    },
                     {
                         "actionsetting": {
                             "action": "ToggleBattlelist"
@@ -1544,12 +1776,6 @@
                             "action": "Copy"
                         },
                         "keysequence": "Ctrl+C"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "ShowDefaultChannel"
-                        },
-                        "keysequence": "Alt+D"
                     },
                     {
                         "actionsetting": {
@@ -1637,15 +1863,9 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "ToggleSkillsWidget"
+                            "action": "ToggleManualSortMode"
                         },
-                        "keysequence": "Alt+S"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "ToggleSpellListWidget"
-                        },
-                        "keysequence": "Alt+L"
+                        "keysequence": "Ctrl+S"
                     },
                     {
                         "actionsetting": {
@@ -1661,12 +1881,6 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "ClearOldestMessage"
-                        },
-                        "keysequence": "Alt+W"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "ShowPrey"
                         },
                         "keysequence": "Ctrl+Y"
@@ -1679,45 +1893,39 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "StopPlayer"
+                            "action": "ShowDefaultChannel"
                         },
-                        "keysequence": "Esc"
+                        "keysequence": "Alt+D"
                     },
                     {
                         "actionsetting": {
-                            "action": "NextChannel"
+                            "action": "ToggleSpellListWidget"
                         },
-                        "keysequence": "Tab"
+                        "keysequence": "Alt+L"
                     },
                     {
                         "actionsetting": {
-                            "action": "AttackNextTarget"
+                            "action": "QuickLootAreaAtPlayer"
                         },
-                        "keysequence": "Space"
+                        "keysequence": "Alt+Q"
                     },
                     {
                         "actionsetting": {
-                            "action": "AttackPreviousTarget"
+                            "action": "ToggleSkillsWidget"
                         },
-                        "keysequence": "Ctrl+Space"
+                        "keysequence": "Alt+S"
                     },
                     {
                         "actionsetting": {
-                            "action": "PreviousChannel"
+                            "action": "ClearOldestMessage"
                         },
-                        "keysequence": "Shift+Backtab"
+                        "keysequence": "Alt+W"
                     },
                     {
                         "actionsetting": {
-                            "action": "MinimapFloorUp"
+                            "action": "ToggleFullscreen"
                         },
-                        "keysequence": "Alt+PgUp"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "MinimapFloorDown"
-                        },
-                        "keysequence": "Alt+PgDown"
+                        "keysequence": "Alt+Return"
                     },
                     {
                         "actionsetting": {
@@ -1739,15 +1947,15 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "MinimapScrollEast"
-                        },
-                        "keysequence": "Alt+Right"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "MinimapScrollNorth"
                         },
                         "keysequence": "Alt+Up"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "MinimapScrollEast"
+                        },
+                        "keysequence": "Alt+Right"
                     },
                     {
                         "actionsetting": {
@@ -1757,75 +1965,47 @@
                     },
                     {
                         "actionsetting": {
+                            "action": "MinimapFloorUp"
+                        },
+                        "keysequence": "Alt+PgUp"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "MinimapFloorDown"
+                        },
+                        "keysequence": "Alt+PgDown"
+                    },
+                    {
+                        "actionsetting": {
                             "action": "ToggleFPSLagIndicator"
                         },
                         "keysequence": "Alt+F8"
                     },
                     {
                         "actionsetting": {
-                            "action": "ToggleFullscreen"
-                        },
-                        "keysequence": "Alt+Return"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "ChatModeTemporaryOn"
-                        },
-                        "keysequence": "Return"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "ChatModeTemporaryOn"
                         },
                         "keysequence": "Num+Enter"
+                    }
+                ],
+                "chatOn": [
+                    {
+                        "actionsetting": {
+                            "action": "StopPlayer"
+                        },
+                        "keysequence": "Esc"
                     },
                     {
                         "actionsetting": {
-                            "action": "GoNorth"
+                            "action": "NextChannel"
                         },
-                        "keysequence": "W"
+                        "keysequence": "Tab"
                     },
                     {
                         "actionsetting": {
-                            "action": "GoWest"
+                            "action": "PressEnterInChat"
                         },
-                        "keysequence": "A"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoSouth"
-                        },
-                        "keysequence": "S"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoEast"
-                        },
-                        "keysequence": "D"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoNorthWest"
-                        },
-                        "keysequence": "Q"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoSouthWest"
-                        },
-                        "keysequence": "Z"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoNorthEast"
-                        },
-                        "keysequence": "E"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoSouthEast"
-                        },
-                        "keysequence": "C"
+                        "keysequence": "Return"
                     },
                     {
                         "actionsetting": {
@@ -1901,18 +2081,10 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "QuickLootAreaAtPlayer"
+                            "action": "PreviousChannel"
                         },
-                        "keysequence": "Alt+Q"
+                        "keysequence": "Shift+Backtab"
                     },
-                    {
-                        "actionsetting": {
-                            "action": "ShowCyclopediaMap"
-                        },
-                        "keysequence": "M"
-                    }
-                ],
-                "chatOn": [
                     {
                         "actionsetting": {
                             "action": "SelectAll"
@@ -1933,12 +2105,6 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "ShowDefaultChannel"
-                        },
-                        "keysequence": "Alt+D"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "CloseCurrentChannel"
                         },
                         "keysequence": "Ctrl+E"
@@ -2023,15 +2189,9 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "ToggleSkillsWidget"
+                            "action": "ToggleManualSortMode"
                         },
-                        "keysequence": "Alt+S"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "ToggleSpellListWidget"
-                        },
-                        "keysequence": "Alt+L"
+                        "keysequence": "Ctrl+S"
                     },
                     {
                         "actionsetting": {
@@ -2047,12 +2207,6 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "ClearOldestMessage"
-                        },
-                        "keysequence": "Alt+W"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "ShowPrey"
                         },
                         "keysequence": "Ctrl+Y"
@@ -2065,33 +2219,39 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "StopPlayer"
+                            "action": "ShowDefaultChannel"
                         },
-                        "keysequence": "Esc"
+                        "keysequence": "Alt+D"
                     },
                     {
                         "actionsetting": {
-                            "action": "NextChannel"
+                            "action": "ToggleSpellListWidget"
                         },
-                        "keysequence": "Tab"
+                        "keysequence": "Alt+L"
                     },
                     {
                         "actionsetting": {
-                            "action": "PreviousChannel"
+                            "action": "QuickLootAreaAtPlayer"
                         },
-                        "keysequence": "Shift+Backtab"
+                        "keysequence": "Alt+Q"
                     },
                     {
                         "actionsetting": {
-                            "action": "MinimapFloorUp"
+                            "action": "ToggleSkillsWidget"
                         },
-                        "keysequence": "Alt+PgUp"
+                        "keysequence": "Alt+S"
                     },
                     {
                         "actionsetting": {
-                            "action": "MinimapFloorDown"
+                            "action": "ClearOldestMessage"
                         },
-                        "keysequence": "Alt+PgDown"
+                        "keysequence": "Alt+W"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "ToggleFullscreen"
+                        },
+                        "keysequence": "Alt+Return"
                     },
                     {
                         "actionsetting": {
@@ -2113,15 +2273,15 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "MinimapScrollEast"
-                        },
-                        "keysequence": "Alt+Right"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "MinimapScrollNorth"
                         },
                         "keysequence": "Alt+Up"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "MinimapScrollEast"
+                        },
+                        "keysequence": "Alt+Right"
                     },
                     {
                         "actionsetting": {
@@ -2131,120 +2291,238 @@
                     },
                     {
                         "actionsetting": {
+                            "action": "MinimapFloorUp"
+                        },
+                        "keysequence": "Alt+PgUp"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "MinimapFloorDown"
+                        },
+                        "keysequence": "Alt+PgDown"
+                    },
+                    {
+                        "actionsetting": {
                             "action": "ToggleFPSLagIndicator"
                         },
                         "keysequence": "Alt+F8"
                     },
                     {
                         "actionsetting": {
-                            "action": "ToggleFullscreen"
-                        },
-                        "keysequence": "Alt+Return"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "PressEnterInChat"
-                        },
-                        "keysequence": "Return"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "PressEnterInChat"
                         },
                         "keysequence": "Num+Enter"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.1"
-                        },
-                        "keysequence": "F1"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.2"
-                        },
-                        "keysequence": "F2"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.3"
-                        },
-                        "keysequence": "F3"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.4"
-                        },
-                        "keysequence": "F4"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.5"
-                        },
-                        "keysequence": "F5"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.6"
-                        },
-                        "keysequence": "F6"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.7"
-                        },
-                        "keysequence": "F7"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.8"
-                        },
-                        "keysequence": "F8"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.9"
-                        },
-                        "keysequence": "F9"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.10"
-                        },
-                        "keysequence": "F10"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.11"
-                        },
-                        "keysequence": "F11"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.12"
-                        },
-                        "keysequence": "F12"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "ToggleManualSortMode"
-                        },
-                        "keysequence": "Ctrl+S"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "QuickLootAreaAtPlayer"
-                        },
-                        "keysequence": "Alt+Q"
                     }
                 ]
             },
             "Sorcerer": {
                 "actionBarOptions": {
                     "mappings": [
+                        {
+                            "actionBar": 1,
+                            "actionButton": 1,
+                            "actionsetting": {
+                                "useObject": 7876,
+                                "useType": "UseOnYourself"
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 2,
+                            "actionsetting": {
+                                "useObject": 268,
+                                "useType": "UseOnYourself"
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 3,
+                            "actionsetting": {
+                                "chatText": "exura infir",
+                                "sendAutomatically": true
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 4,
+                            "actionsetting": {
+                                "chatText": "exori infir vis",
+                                "sendAutomatically": true
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 5,
+                            "actionsetting": {
+                                "chatText": "exevo infir flam hur",
+                                "sendAutomatically": true
+                            }
+                        }
                     ]
                 },
                 "chatOff": [
+                    {
+                        "actionsetting": {
+                            "action": "AttackNextTarget"
+                        },
+                        "keysequence": "Space"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoWest"
+                        },
+                        "keysequence": "A"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoSouthEast"
+                        },
+                        "keysequence": "C"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoEast"
+                        },
+                        "keysequence": "D"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoNorthEast"
+                        },
+                        "keysequence": "E"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "ShowCyclopediaMap"
+                        },
+                        "keysequence": "M"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoNorthWest"
+                        },
+                        "keysequence": "Q"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoSouth"
+                        },
+                        "keysequence": "S"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoNorth"
+                        },
+                        "keysequence": "W"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "GoSouthWest"
+                        },
+                        "keysequence": "Z"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "StopPlayer"
+                        },
+                        "keysequence": "Esc"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "NextChannel"
+                        },
+                        "keysequence": "Tab"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "ChatModeTemporaryOn"
+                        },
+                        "keysequence": "Return"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.1"
+                        },
+                        "keysequence": "F1"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.2"
+                        },
+                        "keysequence": "F2"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.3"
+                        },
+                        "keysequence": "F3"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.4"
+                        },
+                        "keysequence": "F4"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.5"
+                        },
+                        "keysequence": "F5"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.6"
+                        },
+                        "keysequence": "F6"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.7"
+                        },
+                        "keysequence": "F7"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.8"
+                        },
+                        "keysequence": "F8"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.9"
+                        },
+                        "keysequence": "F9"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.10"
+                        },
+                        "keysequence": "F10"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.11"
+                        },
+                        "keysequence": "F11"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "TriggerActionButton_1.12"
+                        },
+                        "keysequence": "F12"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "PreviousChannel"
+                        },
+                        "keysequence": "Shift+Backtab"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "AttackPreviousTarget"
+                        },
+                        "keysequence": "Ctrl+Space"
+                    },
                     {
                         "actionsetting": {
                             "action": "ToggleBattlelist"
@@ -2256,12 +2534,6 @@
                             "action": "Copy"
                         },
                         "keysequence": "Ctrl+C"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "ShowDefaultChannel"
-                        },
-                        "keysequence": "Alt+D"
                     },
                     {
                         "actionsetting": {
@@ -2349,15 +2621,9 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "ToggleSkillsWidget"
+                            "action": "ToggleManualSortMode"
                         },
-                        "keysequence": "Alt+S"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "ToggleSpellListWidget"
-                        },
-                        "keysequence": "Alt+L"
+                        "keysequence": "Ctrl+S"
                     },
                     {
                         "actionsetting": {
@@ -2373,12 +2639,6 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "ClearOldestMessage"
-                        },
-                        "keysequence": "Alt+W"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "ShowPrey"
                         },
                         "keysequence": "Ctrl+Y"
@@ -2391,45 +2651,39 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "StopPlayer"
+                            "action": "ShowDefaultChannel"
                         },
-                        "keysequence": "Esc"
+                        "keysequence": "Alt+D"
                     },
                     {
                         "actionsetting": {
-                            "action": "NextChannel"
+                            "action": "ToggleSpellListWidget"
                         },
-                        "keysequence": "Tab"
+                        "keysequence": "Alt+L"
                     },
                     {
                         "actionsetting": {
-                            "action": "AttackNextTarget"
+                            "action": "QuickLootAreaAtPlayer"
                         },
-                        "keysequence": "Space"
+                        "keysequence": "Alt+Q"
                     },
                     {
                         "actionsetting": {
-                            "action": "AttackPreviousTarget"
+                            "action": "ToggleSkillsWidget"
                         },
-                        "keysequence": "Ctrl+Space"
+                        "keysequence": "Alt+S"
                     },
                     {
                         "actionsetting": {
-                            "action": "PreviousChannel"
+                            "action": "ClearOldestMessage"
                         },
-                        "keysequence": "Shift+Backtab"
+                        "keysequence": "Alt+W"
                     },
                     {
                         "actionsetting": {
-                            "action": "MinimapFloorUp"
+                            "action": "ToggleFullscreen"
                         },
-                        "keysequence": "Alt+PgUp"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "MinimapFloorDown"
-                        },
-                        "keysequence": "Alt+PgDown"
+                        "keysequence": "Alt+Return"
                     },
                     {
                         "actionsetting": {
@@ -2451,15 +2705,15 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "MinimapScrollEast"
-                        },
-                        "keysequence": "Alt+Right"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "MinimapScrollNorth"
                         },
                         "keysequence": "Alt+Up"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "MinimapScrollEast"
+                        },
+                        "keysequence": "Alt+Right"
                     },
                     {
                         "actionsetting": {
@@ -2469,75 +2723,47 @@
                     },
                     {
                         "actionsetting": {
+                            "action": "MinimapFloorUp"
+                        },
+                        "keysequence": "Alt+PgUp"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "MinimapFloorDown"
+                        },
+                        "keysequence": "Alt+PgDown"
+                    },
+                    {
+                        "actionsetting": {
                             "action": "ToggleFPSLagIndicator"
                         },
                         "keysequence": "Alt+F8"
                     },
                     {
                         "actionsetting": {
-                            "action": "ToggleFullscreen"
-                        },
-                        "keysequence": "Alt+Return"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "ChatModeTemporaryOn"
-                        },
-                        "keysequence": "Return"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "ChatModeTemporaryOn"
                         },
                         "keysequence": "Num+Enter"
+                    }
+                ],
+                "chatOn": [
+                    {
+                        "actionsetting": {
+                            "action": "StopPlayer"
+                        },
+                        "keysequence": "Esc"
                     },
                     {
                         "actionsetting": {
-                            "action": "GoNorth"
+                            "action": "NextChannel"
                         },
-                        "keysequence": "W"
+                        "keysequence": "Tab"
                     },
                     {
                         "actionsetting": {
-                            "action": "GoWest"
+                            "action": "PressEnterInChat"
                         },
-                        "keysequence": "A"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoSouth"
-                        },
-                        "keysequence": "S"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoEast"
-                        },
-                        "keysequence": "D"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoNorthWest"
-                        },
-                        "keysequence": "Q"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoSouthWest"
-                        },
-                        "keysequence": "Z"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoNorthEast"
-                        },
-                        "keysequence": "E"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "GoSouthEast"
-                        },
-                        "keysequence": "C"
+                        "keysequence": "Return"
                     },
                     {
                         "actionsetting": {
@@ -2613,18 +2839,10 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "QuickLootAreaAtPlayer"
+                            "action": "PreviousChannel"
                         },
-                        "keysequence": "Alt+Q"
+                        "keysequence": "Shift+Backtab"
                     },
-                    {
-                        "actionsetting": {
-                            "action": "ShowCyclopediaMap"
-                        },
-                        "keysequence": "M"
-                    }
-                ],
-                "chatOn": [
                     {
                         "actionsetting": {
                             "action": "SelectAll"
@@ -2645,12 +2863,6 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "ShowDefaultChannel"
-                        },
-                        "keysequence": "Alt+D"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "CloseCurrentChannel"
                         },
                         "keysequence": "Ctrl+E"
@@ -2735,15 +2947,9 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "ToggleSkillsWidget"
+                            "action": "ToggleManualSortMode"
                         },
-                        "keysequence": "Alt+S"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "ToggleSpellListWidget"
-                        },
-                        "keysequence": "Alt+L"
+                        "keysequence": "Ctrl+S"
                     },
                     {
                         "actionsetting": {
@@ -2759,12 +2965,6 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "ClearOldestMessage"
-                        },
-                        "keysequence": "Alt+W"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "ShowPrey"
                         },
                         "keysequence": "Ctrl+Y"
@@ -2777,33 +2977,39 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "StopPlayer"
+                            "action": "ShowDefaultChannel"
                         },
-                        "keysequence": "Esc"
+                        "keysequence": "Alt+D"
                     },
                     {
                         "actionsetting": {
-                            "action": "NextChannel"
+                            "action": "ToggleSpellListWidget"
                         },
-                        "keysequence": "Tab"
+                        "keysequence": "Alt+L"
                     },
                     {
                         "actionsetting": {
-                            "action": "PreviousChannel"
+                            "action": "QuickLootAreaAtPlayer"
                         },
-                        "keysequence": "Shift+Backtab"
+                        "keysequence": "Alt+Q"
                     },
                     {
                         "actionsetting": {
-                            "action": "MinimapFloorUp"
+                            "action": "ToggleSkillsWidget"
                         },
-                        "keysequence": "Alt+PgUp"
+                        "keysequence": "Alt+S"
                     },
                     {
                         "actionsetting": {
-                            "action": "MinimapFloorDown"
+                            "action": "ClearOldestMessage"
                         },
-                        "keysequence": "Alt+PgDown"
+                        "keysequence": "Alt+W"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "ToggleFullscreen"
+                        },
+                        "keysequence": "Alt+Return"
                     },
                     {
                         "actionsetting": {
@@ -2825,15 +3031,15 @@
                     },
                     {
                         "actionsetting": {
-                            "action": "MinimapScrollEast"
-                        },
-                        "keysequence": "Alt+Right"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "MinimapScrollNorth"
                         },
                         "keysequence": "Alt+Up"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "MinimapScrollEast"
+                        },
+                        "keysequence": "Alt+Right"
                     },
                     {
                         "actionsetting": {
@@ -2843,111 +3049,27 @@
                     },
                     {
                         "actionsetting": {
+                            "action": "MinimapFloorUp"
+                        },
+                        "keysequence": "Alt+PgUp"
+                    },
+                    {
+                        "actionsetting": {
+                            "action": "MinimapFloorDown"
+                        },
+                        "keysequence": "Alt+PgDown"
+                    },
+                    {
+                        "actionsetting": {
                             "action": "ToggleFPSLagIndicator"
                         },
                         "keysequence": "Alt+F8"
                     },
                     {
                         "actionsetting": {
-                            "action": "ToggleFullscreen"
-                        },
-                        "keysequence": "Alt+Return"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "PressEnterInChat"
-                        },
-                        "keysequence": "Return"
-                    },
-                    {
-                        "actionsetting": {
                             "action": "PressEnterInChat"
                         },
                         "keysequence": "Num+Enter"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.1"
-                        },
-                        "keysequence": "F1"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.2"
-                        },
-                        "keysequence": "F2"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.3"
-                        },
-                        "keysequence": "F3"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.4"
-                        },
-                        "keysequence": "F4"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.5"
-                        },
-                        "keysequence": "F5"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.6"
-                        },
-                        "keysequence": "F6"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.7"
-                        },
-                        "keysequence": "F7"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.8"
-                        },
-                        "keysequence": "F8"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.9"
-                        },
-                        "keysequence": "F9"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.10"
-                        },
-                        "keysequence": "F10"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.11"
-                        },
-                        "keysequence": "F11"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "TriggerActionButton_1.12"
-                        },
-                        "keysequence": "F12"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "ToggleManualSortMode"
-                        },
-                        "keysequence": "Ctrl+S"
-                    },
-                    {
-                        "actionsetting": {
-                            "action": "QuickLootAreaAtPlayer"
-                        },
-                        "keysequence": "Alt+Q"
                     }
                 ]
             }
@@ -2955,7 +3077,7 @@
         "showStaticHotkeysFirst": true
     },
     "news": {
-        "maxunlocklevel": 280
+        "maxunlocklevel": 0
     },
     "options": {
         "ChatEnabled": true,
@@ -2989,8 +3111,8 @@
         "actionButtonShowGraphicalCooldown": true,
         "actionButtonShowHotkey": true,
         "actionButtonShowSpellParameters": true,
-        "alwaysTurnTowardsMoveDirection": false,
-        "antialiasingMode": 1,
+        "alwaysTurnTowardsMoveDirection": true,
+        "antialiasingMode": 2,
         "autoChaseEnabled": false,
         "charTradePaymentRemindAgain": 0,
         "characterSelectionShowHidden": true,
@@ -3026,8 +3148,8 @@
         "emergencyDialogVersion": 0,
         "frameRateLimit": 60,
         "frameRateLimitEnabled": true,
-        "gameWindowLowerPaneHeight": 112,
-        "gameWindowResizingMode": 2,
+        "gameWindowLowerPaneHeight": 0,
+        "gameWindowResizingMode": 0,
         "gameWindowScaleOnlyByEvenMultiples": false,
         "gameWindowShowBoostedCreatureMessages": true,
         "gameWindowShowHotkeyUsageMessages": true,
@@ -3047,7 +3169,7 @@
         "inspectPlayerAllowAllEnabled": false,
         "keyboardDelayMs": 250,
         "keyboardDelayUseDefault": true,
-        "launcherPatchFixupDone": false,
+        "launcherPatchFixupDone": true,
         "lightAmbientLevel": 0.25,
         "lightAttenuationCloudsIndoor": 0.75,
         "lightEffectsEnabled": true,
@@ -3075,7 +3197,7 @@
         "playerShowName": true,
         "quickLogin": true,
         "quickLootAllCorpsesInAreaEnabled": true,
-        "rememberLoginEmail": false,
+        "rememberLoginEmail": true,
         "rendererIndex": 8,
         "rotateWithAlt": false,
         "rotateWithCtrl": true,
@@ -3105,7 +3227,7 @@
         "showExpireInContainers": false,
         "showExpireInInventory": true,
         "showExpireWhenUnused": true,
-        "showFpsLagIndicator": false,
+        "showFpsLagIndicator": true,
         "soundAmbienceVolume": 100,
         "soundAnthemEnabled": false,
         "soundBattleCreaturesAttacksEnabled": true,
@@ -3125,12 +3247,12 @@
         "soundBattleOwnVolume": 100,
         "soundBattleOwnWeaponsEnabled": true,
         "soundEatingEnabled": true,
-        "soundEventsVolume": 62,
+        "soundEventsVolume": 100,
         "soundItemsVolume": 100,
-        "soundMasterVolume": 1,
-        "soundMasterVolumeOld": 1,
+        "soundMasterVolume": 0,
+        "soundMasterVolumeOld": 100,
         "soundMoveItemEnabled": true,
-        "soundMusicVolume": 6,
+        "soundMusicVolume": 50,
         "soundPartyEnabled": true,
         "soundUiInteractionsEnabled": true,
         "soundUiVolume": 100,
